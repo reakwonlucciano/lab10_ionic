@@ -7,14 +7,12 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<h2>Ionic Plugins</h2>
+<h3>Flashlight</h3>
+<ion-button (click)="Flashlight()">Flashlight</ion-button>
+<hr>
+<h2>GPS</h2>
+<ion-button (click)="GPS()">GPS</ion-button>
+<br>
+{{lat}}, {{long}}
 </ion-content>
